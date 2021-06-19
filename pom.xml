@@ -25,5 +25,16 @@
 			</plugin>
 		</plugins>
 	</build>
-
+<distributionManagement>
+     <repository>
+         <id>artifactory</id>
+         <name>Artifactory</name>
+         <url>http://localhost:8082/artifactory/helloworlddwar</url>
+     </repository>
+     <snapshotRepository>
+         <id>artifactorysnapshots</id>
+         <name>Artifactory-Snapshots</name>
+         <url>http://localhost:8082/artifactory/helloworlddwar</url>
+     </snapshotRepository>
+ </distributionManagement>
 </project>
